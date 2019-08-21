@@ -1,0 +1,41 @@
+body{
+  color: rgb(53, 51, 50);
+  font-family: 'Livvic', sans-serif;
+  background: #659999;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1{
+  margin-top: 2em;
+  font-size: 3em;
+  text-shadow: 3px 4px 16px rgba(0,0,0,0.75);
+}
+img{
+  border-bottom: 1px black solid;
+}
+p{
+ margin-top: 2em;
+}
+article{
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+article img{
+  width: 20%;
+}
+footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 240, 245, 0.5);
+  color: rgb(53, 51, 50);
+  text-align: right;
+  border-top: black 1px solid;
+  border-left: black 1px solid; 
+}
+footer p{
+  margin:0;
+  padding: 0.1em;
+  font-size: 0.7em;
+}
